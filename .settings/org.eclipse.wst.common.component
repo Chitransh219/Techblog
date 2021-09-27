@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TechBlog">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="sqlite-jdbc-3.36.0.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/chitransh web/Java_programs2/TechBlog/sqlite-jdbc-3.36.0.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="TechBlog"/>
+        <property name="java-output-path" value="/TechBlog/build/classes"/>
+    </wb-module>
+</project-modules>
